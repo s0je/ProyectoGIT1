@@ -30,9 +30,9 @@ function calculadora(operacion)
 {
     console.log(operacion);
 }
-function sum (op1, op2=0)
+function sum (op1,op3, op2=0)
 {
-    return  op1 + op2;
+    return  op1 + op2 + op3;
 
 }
 function subs (op1, op2=0)
